@@ -61,7 +61,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Tiger Nixon</td>
+                                        <td>Costumer Service</td>
                                         <td>System Architect</td>
                                         <td>$320,800</td>
                                         <td>Edinburgh</td>
