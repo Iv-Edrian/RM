@@ -13,8 +13,8 @@
 @endsection
 
 @section('breadcrumb-items')
-    <li class="breadcrumb-item">Data Tables</li>
-    <li class="breadcrumb-item active">DATA Source DataTables</li>
+    <li class="breadcrumb-item">Business Continuity Management</li>
+    <li class="breadcrumb-item active">Incidents</li>
 @endsection
 
 @section('content')
@@ -33,10 +33,10 @@
                         <ul class="nav nav-tabs" id="icon-tab" role="tablist">
                             <li class="nav-item"><a class="nav-link active" id="icon-home-tab" data-bs-toggle="tab"
                                     href="#icon-home" role="tab" aria-controls="icon-home" aria-selected="true"><i
-                                        class="icofont icofont-ui-home"></i>My BIA</a></li>
+                                        class="icofont icofont-ui-home"></i>Incidents</a></li>
                             <li class="nav-item"><a class="nav-link" id="profile-icon-tab" data-bs-toggle="tab"
                                     href="#profile-icon" role="tab" aria-controls="profile-icon"
-                                    aria-selected="false"><i class="icofont icofont-man-in-glasses"></i>Add BIA</a></li>
+                                    aria-selected="false"><i class="icofont icofont-man-in-glasses"></i>Add Incidents</a></li>
                            
                         </ul>
                         <div class="tab-content" id="icon-tabContent">
@@ -50,93 +50,92 @@
                             <table class="display" id="data-source-1" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Title</th>
                                         <th>Owner</th>
+                                        <th>Title</th>
                                         <th>Descriptions</th>
                                         <th>Impact</th>
-                                        <th>RTO</th>
                                         <th>Importance</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Costumer Service</td>
-                                        <td>System Architect</td>
-                                        <td>$320,800</td>
-                                        <td>Edinburgh</td>
-                                        <td class="action"> <a class="pdf" href="sample.pdf') }}" target="_blank"><i
-                                                    class="icofont icofont-file-pdf"></i></a></td>
-                                        <td> <span class="badge rounded-pill badge-success">hired</span></td>
+                                        <td>User 1</td>
+                                        <td>Cashier</td>
+                                        <td>Cashier Disruption</td>
+                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
+                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Garrett Winters</td>
-                                        <td>Accountant</td>
-                                        <td>$170,750</td>
-                                        <td>Tokyo</td>
-                                        <td class="action"> <a class="pdf" href="{{ asset('assets/pdf/sample.pdf') }}"
-                                                target="_blank"><i class="icofont icofont-file-pdf"> </i></a></td>
-                                        <td> <span class="badge rounded-pill badge-danger">Pending</span></td>
+                                        <td>User 2</td>
+                                        <td>LMS</td>
+                                        <td>LMS server down</td>
+                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
+                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Ashton Cox</td>
-                                        <td>Junior Technical Author</td>
-                                        <td>$86,000</td>
-                                        <td>San Francisco</td>
-                                        <td class="action"> <a class="pdf" href="{{ asset('assets/pdf/sample.pdf') }}"
-                                                target="_blank"><i class="icofont icofont-file-pdf"> </i></a></td>
-                                        <td> <span class="badge rounded-pill badge-warning"> in process</span></td>
+                                        <td>User 3</td>
+                                        <td>Workplace</td>
+                                        <td>Workplace Brownout</td>
+                                        <td> <span class="badge rounded-pill badge-danger">High</span></td>
+                                        <td> <span class="badge rounded-pill badge-danger">High</span></td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Cedric Kelly</td>
-                                        <td>Senior Javascript Developer</td>
-                                        <td>$433,060</td>
-                                        <td>Edinburgh</td>
-                                        <td class="action"> <a class="pdf" href="{{ asset('assets/pdf/sample.pdf') }}"
-                                                target="_blank"><i class="icofont icofont-file-pdf"> </i></a></td>
-                                        <td> <span class="badge rounded-pill badge-warning"> in process</span></td>
+                                        <td>User 4</td>
+                                        <td>Connections</td>
+                                        <td>No Connections</td>
+                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
+                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Airi Satou</td>
-                                        <td>Accountant</td>
-                                        <td>$162,700</td>
-                                        <td>Tokyo</td>
-                                        <td class="action"> <a class="pdf" href="{{ asset('assets/pdf/sample.pdf') }}"
-                                                target="_blank"><i class="icofont icofont-file-pdf"> </i></a></td>
-                                        <td> <span class="badge rounded-pill badge-success">hired</span></td>
+                                        <td>User 5</td>
+                                        <td>Connections</td>
+                                        <td>Unstable Signals</td>
+                                        <td> <span class="badge rounded-pill badge-success">Low</span></td>
+                                        <td> <span class="badge rounded-pill badge-success">Low</span></td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+                                                
                                             </ul>
                                         </td>
                                     </tr>
@@ -162,10 +161,10 @@
 			<form class="row needs-validation" novalidate="">
 			  <div class="col-sm-12">
 							
-                  <label for="validationCustom01">BIA Title:</label>
+                  <label for="validationCustom01">Owner:</label>
 				  <input class="form-control" id="validationCustom01" type="text" placeholder="" required="">
 
-                  <label for="validationCustom01">Owner:</label>
+                  <label for="validationCustom01">Title:</label>
 				  <input class="form-control" id="validationCustom01" type="text" placeholder="" required="">
 
                   <label for="validationCustom01">Descriptions:</label>
@@ -177,8 +176,6 @@
                   <label for="validationCustom01">Impact:</label>
 				  <input class="form-control" id="validationCustom01" type="text" placeholder="" required="">
 
-                  <label for="validationCustom01">Recovery Time Object (RTO):</label>
-				  <input class="form-control" id="validationCustom01" type="text" placeholder="" required="">
 
               
 			<div class="btn-showcase text-end">

@@ -40,8 +40,8 @@
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-ui-kits') }}"></use>
                             </svg><span>Business Continuity Management</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="{{ route('datatable-data-source')}}">Business Impact Analysis (BIA)</a></li>
-                            <li><a href="{{ route('base-input')}}">Business Continuity Plans (BCP)</a></li>
+                            <li><a href="{{ route('datatable-data-source')}}">Incidents</a></li>
+                            <li><a href="{{ route('base-input')}}">Plans and Assesements</a></li>
                         </ul>
                     </li>
                     
@@ -78,7 +78,7 @@
                             </svg>
                             <svg class="fill-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-email') }}"></use>
-                            </svg><span>Messages</span></a>
+                            </svg><span>Crisis Communication</span></a>
                         <ul class="sidebar-submenu">
                             <li><a href="{{ route('email-application')}}">Email App</a></li>
                             <li><a href="{{ route('email-compose')}}">Email Compose</a></li>
