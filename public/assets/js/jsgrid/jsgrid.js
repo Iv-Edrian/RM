@@ -13,15 +13,14 @@
         deleteConfirm: "Do you really want to delete the client?",
         controller: db,
         fields: [
-            { name: "Task", type: "text", width: 150 },
-            { name: "Email", type: "text", width: 200 },
-            { name: "Phone", type: "text", width: 150 },
-            { name: "Assign", type: "text", width: 160 },
-            { name: "Date", type: "text", width: 150 },
-            { name: "Price", type: "text", width: 100 },
-            { name: "Status", type: "html", width: 150 },
-            { name: "Progress", type: "text", width: 100 },
+            { name: "Owner", type: "text", width: 110 },
+            { name: "Template No.", type: "text", width: 90 },
+            { name: "Risks", type: "text", width: 150 },
+            { name: "Impact", type: "text", width: 100 },
+            { name: "Plans", type: "text", width: 150 },
+            { name: "Team / Personnel Responsible", type: "text", width: 120 },
             { type: "control" , width: 80 },
+
         ]
     });
     $("#sorting-table").jsGrid({

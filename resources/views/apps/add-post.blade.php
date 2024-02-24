@@ -56,23 +56,6 @@
 				  <div class="valid-feedback">Looks good!</div>
 				</div>
 				<div class="mb-3">
-				  <label>Type:</label>
-				  <div class="m-checkbox-inline">
-					<label for="edo-ani">
-					  <input class="radio_animated" id="edo-ani" type="radio" name="rdo-ani" checked="">Text
-					</label>
-					<label for="edo-ani1">
-					  <input class="radio_animated" id="edo-ani1" type="radio" name="rdo-ani">Image
-					</label>
-					<label for="edo-ani2">
-					  <input class="radio_animated" id="edo-ani2" type="radio" name="rdo-ani" checked="">Audio
-					</label>
-					<label for="edo-ani3">
-					  <input class="radio_animated" id="edo-ani3" type="radio" name="rdo-ani">Video
-					</label>
-				  </div>
-				</div>
-				<div class="mb-3">
 				  <div class="col-form-label">Category:
 					<select class="js-example-placeholder-multiple col-sm-12" multiple="multiple">
 					  <option value="AL">Lifestyle</option>

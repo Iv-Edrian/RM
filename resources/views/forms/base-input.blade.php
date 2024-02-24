@@ -1,17 +1,19 @@
 @extends('layouts.master')
-@section('title', 'Base Inputs')
+@section('title', 'Base Inputs', 'JS Grid Tables')
 
 @section('css')
 @endsection
 
 @section('style')
+<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/jsgrid.css')}}">
+
 @endsection
 
 @section('breadcrumb-title')
 @endsection
 
 @section('breadcrumb-items')
-<li class="breadcrumb-item">Business Continuity Management</li>
+<li class="breadcrumb-item">Plans and Assesements</li>
 <li class="breadcrumb-item active">Risk Plans and Assesements</li>
 @endsection
 
@@ -33,10 +35,18 @@
 
                         <div class="tab-content" id="icon-tabContent">
                             <div class="tab-pane fade show active" id="icon-home" role="tabpanel"
-                                aria-labelledby="icon-home-tab">							
-                              
-
-                                
+                                aria-labelledby="icon-home-tab">	
+		<div class="col-sm-12">
+			<div class="card">
+				<div class="card-header">
+					<h5>Basic Scenario</h5>
+					<span>Grid with filtering, editing, inserting, deleting, sorting and paging. Data provided by controller.</span>
+				</div>
+				<div class="card-body">
+					<div id="basicScenario"></div>
+				</div>
+			</div>
+		</div>
                             </div>
 
                             <div class="tab-pane fade" id="profile-icon" role="tabpanel"
@@ -91,6 +101,10 @@
 @endsection
 
 @section('script')
+<script src="{{asset('assets/js/jsgrid/jsgrid.min.js')}}"></script>
+<script src="{{asset('assets/js/jsgrid/griddata.js')}}"></script>
+<script src="{{asset('assets/js/jsgrid/jsgrid.js')}}"></script>
+
 <script src="{{ asset('assets/js/datatable/datatables/jquery.dataTables.min.js') }}"></script>
 <script src="{{ asset('assets/js/datatable/datatables/datatable.custom.js') }}"></script>
 <script src="{{asset('assets/js/editor/ckeditor/ckeditor.js')}}"></script>

@@ -13,7 +13,7 @@
 @endsection
 
 @section('breadcrumb-items')
-    <li class="breadcrumb-item">Business Continuity Management</li>
+    <li class="breadcrumb-item">Incidents Response</li>
     <li class="breadcrumb-item active">Incidents</li>
 @endsection
 
@@ -24,7 +24,7 @@
         <div class="col-sm-12 col-xxl-6">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Business Impact Analysis
+                        <h5>Incidents Response
 
 
                         </h5>
@@ -53,7 +53,6 @@
                                         <th>Owner</th>
                                         <th>Title</th>
                                         <th>Descriptions</th>
-                                        <th>Impact</th>
                                         <th>Importance</th>
                                         <th>Action</th>
                                     </tr>
@@ -63,7 +62,6 @@
                                         <td>User 1</td>
                                         <td>Cashier</td>
                                         <td>Cashier Disruption</td>
-                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
                                         <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
                                         <td>
                                             <ul class="action">
@@ -80,7 +78,6 @@
                                         <td>LMS</td>
                                         <td>LMS server down</td>
                                         <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
-                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
@@ -95,7 +92,6 @@
                                         <td>User 3</td>
                                         <td>Workplace</td>
                                         <td>Workplace Brownout</td>
-                                        <td> <span class="badge rounded-pill badge-danger">High</span></td>
                                         <td> <span class="badge rounded-pill badge-danger">High</span></td>
                                         <td>
                                             <ul class="action">
@@ -112,7 +108,6 @@
                                         <td>Connections</td>
                                         <td>No Connections</td>
                                         <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
-                                        <td> <span class="badge rounded-pill badge-warning">Medium</span></td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
@@ -127,7 +122,6 @@
                                         <td>User 5</td>
                                         <td>Connections</td>
                                         <td>Unstable Signals</td>
-                                        <td> <span class="badge rounded-pill badge-success">Low</span></td>
                                         <td> <span class="badge rounded-pill badge-success">Low</span></td>
                                         <td>
                                             <ul class="action">

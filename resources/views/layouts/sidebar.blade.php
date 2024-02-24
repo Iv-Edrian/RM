@@ -32,29 +32,26 @@
 
             
 
-                    <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#">
+                    <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="{{ route ('base-input')}}">
                             <svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-ui-kits') }}"></use>
                             </svg>
                             <svg class="fill-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-ui-kits') }}"></use>
-                            </svg><span>Business Continuity Management</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('datatable-data-source')}}">Incidents</a></li>
-                            <li><a href="{{ route('base-input')}}">Plans and Assesements</a></li>
-                        </ul>
+                            </svg><span>Plans and Assesements</span></a>
+                
                     </li>
                     
 
                 <!--------------------------------------------------------------------->
                 
-                <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="{{ route('datatable-ext-autofill')}}">
+                <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="{{ route('datatable-data-source')}}">
                             <svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-maps') }}"></use>
                             </svg>
                             <svg class="fill-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-maps') }}"></use>
-                            </svg><span>Emergency Response</span></a>
+                            </svg><span>Incidents Response</span></a>
                     </li>
 
             
