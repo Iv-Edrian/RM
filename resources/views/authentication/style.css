@@ -1,0 +1,84 @@
+body {
+    font-family:'Segoe UI';
+    background: black 100% /200%;
+    background-image:url("UI1.jpg") ;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.login-container {
+    border-radius:30px;
+    border:1px solid gray;
+    text-align:center;
+    align-items: center;
+    height: 60%;
+    width: 25%;
+    position:fixed; right:650px;
+}
+#loginForm{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-bottom: 20px;
+   
+}
+h1{
+    position:fixed; left:430px; top:50px; right:500px; 
+    font-size:20px;
+    font-family: 'Courier New';
+    color:black;
+}
+#logo1{
+    position:fixed; left:375px; top:60px; 
+}
+#paragraph{
+    position:fixed; left:705px; top:40px; right: 100px; 
+    border: solid 1px gray;
+    border-radius: 30px;
+    height: 40%;
+    margin: 80px;
+    padding: 60px;
+    font-size: 20px;
+    background: lightblue transparent;
+
+}
+
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border:1px solid gray;
+}
+
+button {
+    color: black;
+    padding: 15px;
+    border: solid 1px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background: white;
+    width: 50%;
+    height: 60px;
+    margin: 20%;
+
+}
+
+button:hover {
+    background-color: lightcyan;
+}
+
+.error-message {
+    color: red;
+    text-align:center;
+    margin-top: 5px;
+}
+

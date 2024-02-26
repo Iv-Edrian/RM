@@ -18,7 +18,7 @@
                 <!--------------------------------------------------------------------->
 
             <li class="sidebar-list">
-                        <label class="badge badge-light-primary">2</label><a class="sidebar-link sidebar-title"
+                        </label><a class="sidebar-link sidebar-title"
                             href="{{ route('index')}}">
                             <svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-charts') }}"></use>

@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Session;
 
-Route::get('/', function () {
+Route::get('login', function () {
     return redirect()->route('index');
-})->name('/');
+})->name('login');
 
 //Language Change
 Route::get('lang/{locale}', function ($locale) {
@@ -18,8 +18,8 @@ Route::get('lang/{locale}', function ($locale) {
     return redirect()->back();
 })->name('lang');
 
-Route::prefix('dashboard')->group(function () {
-    Route::view('index', 'dashboard.index')->name('index');
+Route::prefix('authentication')->group(function () {
+    Route::view('login', 'authentication.login')->name('login');
    
 
 });
