@@ -18,8 +18,8 @@ Route::get('lang/{locale}', function ($locale) {
     return redirect()->back();
 })->name('lang');
 
-Route::prefix('authentication')->group(function () {
-    Route::view('login', 'authentication.login')->name('login');
+Route::prefix('dashboard')->group(function () {
+    Route::view('index', 'dashboard.index')->name('index');
    
 
 });
