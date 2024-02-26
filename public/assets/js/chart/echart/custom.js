@@ -2018,7 +2018,7 @@ require(['echarts'/*, 'map/js/china' */], function (echarts) {
         globalCoord: false // 缺省为 false
     }
 ]
-var colorLine = ['#33C0CD', '#73ACFF', '#9E87FF', '#FE6969', '#FDB36A', '#FECE43']
+var colorLine = ['#33C0CD', '#73ACFF', '#9E87FF', '#FE6969', '#FDB36A', '#FECE43', '']
 
 function getRich() {
     let result = {}
@@ -2039,23 +2039,14 @@ function getRich() {
     return result
 }
 let data = [{
-    'name': 'Beijing',
-    'value': 25
+    'name': 'Created: Plans and Assesements',
+    'value': 5
 }, {
-    'name': 'Shanghai',
-    'value': 20
+    'name': 'Current: Incidents',
+    'value': 3
 }, {
-    'name': 'Guangzhou',
-    'value': 18
-}, {
-    'name': 'Shenzhen',
-    'value': 15
-}, {
-    'name': 'unknown',
-    'value': 13
-}, {
-    'name': 'overseas',
-    'value': 9
+    'name': 'Uploaded: Recovery',
+    'value': 4
 }].sort((a, b) => {
     return b.value - a.value
 })

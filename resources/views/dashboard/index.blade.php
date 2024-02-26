@@ -10,7 +10,7 @@
 @endsection
 
 @section('breadcrumb-title')
-<h3>Echarts</h3>
+<h3>Dashboard</h3>
 @endsection
 
 @section('breadcrumb-items')

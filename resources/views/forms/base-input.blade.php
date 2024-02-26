@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Base Inputs', 'JS Grid Tables')
+@section('title', 'Base Inputs',)
 
 @section('css')
 @endsection
@@ -36,15 +36,10 @@
                         <div class="tab-content" id="icon-tabContent">
                             <div class="tab-pane fade show active" id="icon-home" role="tabpanel"
                                 aria-labelledby="icon-home-tab">	
-		<div class="col-sm-12">
-			<div class="card">
-				<div class="card-header">
-					<h5>Basic Scenario</h5>
-					<span>Grid with filtering, editing, inserting, deleting, sorting and paging. Data provided by controller.</span>
-				</div>
+		<div class="col-sm-20">
+		
 				<div class="card-body">
 					<div id="basicScenario"></div>
-				</div>
 			</div>
 		</div>
                             </div>

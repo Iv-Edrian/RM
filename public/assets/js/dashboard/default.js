@@ -382,11 +382,11 @@ var options = {
      series: [
       {
         name:'Earning',
-        data:[200,200, 350, 400, 200, 250,250,350, 350, 500, 500, 700,850,700, 400, 400, 250, 250,400, 350,400]
+        data:[300,400,500,600,700,800,900]
       },
       {
         name: 'Expense',
-        data: [400,600,700,400,700,800,800,850,850,900,900,700,600,500,800,800,800,800,400,700,800]
+        data: [200,300,400,500,600]
       }
     ],
     chart:{
@@ -441,9 +441,10 @@ var options = {
     },
     colors:[CubaAdminConfig.primary,'#AAAFCB'],
     yaxis: {
-      tickAmount: 3,   
+      categories:[
+        'Low', 'Medium', 'High'
+      ],
       labels: {
-        show: true,
         style: {
           fontFamily: 'Rubik, sans-serif',
         },
@@ -457,7 +458,7 @@ var options = {
     },
     xaxis:{     
       categories:[
-        '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18', '19','20','21'
+        'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'
       ],
       labels: {
         style: {

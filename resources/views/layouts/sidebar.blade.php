@@ -1,10 +1,10 @@
 <div class="sidebar-wrapper" sidebar-layout="stroke-svg">
     <div>
-      <div class="logo-wrapper"><a href="{{ route('/')}}"><img class="img-fluid for-light" src="{{ asset('assets/images/logo/RMS-b.png') }}" alt=""><img class="img-fluid for-dark" src="{{ asset('assets/images/logo/RMS-w.png') }}" alt=""></a>
+      <div class="logo-wrapper"><a href="{{ route('/')}}"><img class="img-fluid for-light" src="{{ asset('assets/images/logo/RMS-black.png') }}" alt=""><img class="img-fluid for-dark" src="{{ asset('assets/images/logo/RMS-white.png') }}" alt=""></a>
         <div class="back-btn"><i class="fa fa-angle-left"></i></div>
         <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
       </div>
-      <div class="logo-icon-wrapper"><a href="{{ route('/')}}"><img class="img-fluid" src="{{ asset('assets/images/rm-favicon_io/RMS-w0.png') }}" alt=""></a></div>
+      <div class="logo-icon-wrapper"><a href="{{ route('/')}}"><img class="img-fluid" src="{{ asset('assets/images/rm-favicon_io/RMS-w1.png') }}" alt=""></a></div>
       <nav class="sidebar-main">
         <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
         <div id="sidebar-menu">
@@ -21,23 +21,22 @@
                         <label class="badge badge-light-primary">2</label><a class="sidebar-link sidebar-title"
                             href="{{ route('index')}}">
                             <svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-home') }}"></use>
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-charts') }}"></use>
                             </svg>
                             <svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-home') }}"></use>
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-charts') }}"></use>
                             </svg><span class="lan-3">Dashboard</span></a>
                     </li>
-
                <!--------------------------------------------------------------------->
 
             
 
                     <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="{{ route ('base-input')}}">
                             <svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-ui-kits') }}"></use>
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-editors') }}"></use>
                             </svg>
                             <svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-ui-kits') }}"></use>
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-editors') }}"></use>
                             </svg><span>Plans and Assesements</span></a>
                 
                     </li>
@@ -47,10 +46,10 @@
                 
                 <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="{{ route('datatable-data-source')}}">
                             <svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-maps') }}"></use>
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-icons') }}"></use>
                             </svg>
                             <svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-maps') }}"></use>
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-icons') }}"></use>
                             </svg><span>Incidents Response</span></a>
                     </li>
 

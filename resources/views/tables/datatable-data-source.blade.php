@@ -68,7 +68,7 @@
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
-                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icofont icofont-ui-text-loading"></i>
 
                                             </ul>
                                         </td>
@@ -83,7 +83,7 @@
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
-                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icofont icofont-ui-text-loading"></i>
 
                                             </ul>
                                         </td>
@@ -98,7 +98,7 @@
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
-                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icofont icofont-ui-text-loading"></i>
 
                                             </ul>
                                         </td>
@@ -113,7 +113,7 @@
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
-                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icofont icofont-ui-text-loading"></i>
 
                                             </ul>
                                         </td>
@@ -128,7 +128,7 @@
                                                 <li class="edit"> <a href="#"><i class="icon-pencil-alt"></i></a>
                                                 </li>
                                                 <li class="delete"><a href="#"><i class="icon-trash"></i></a></li>
-                                                <li class="Send Response"><a href="#"><i class="icon-hand-open"></i></a></li>
+                                                <li class="Send Response"><a href="#"><i class="icofont icofont-ui-text-loading"></i>
                                                 
                                             </ul>
                                         </td>
