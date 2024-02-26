@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Session;
 
-Route::get('login', function () {
+Route::get('/', function () {
     return redirect()->route('index');
-})->name('login');
+})->name('/');
 
 //Language Change
 Route::get('lang/{locale}', function ($locale) {
