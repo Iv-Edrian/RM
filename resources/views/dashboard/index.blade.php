@@ -32,8 +32,8 @@
 					<div class="col-xl-18">
 					  <div class="card-body p-0">
 						<ul class="balance-data"> 
-						  <li><span class="circle bg-warning"> </span><span class="f-light ms-1">UnRecover</span></li>
-						  <li><span class="circle bg-primary"> </span><span class="f-light ms-1">Recovered</span></li>
+						  <li><span class="circle bg-warning"> </span><span class="f-light ms-1">UnComplete Task</span></li>
+						  <li><span class="circle bg-primary"> </span><span class="f-light ms-1">Complete Task</span></li>
 						</ul>
 						<div class="current-sale-container">
 						  <div id="chart-currently"></div>

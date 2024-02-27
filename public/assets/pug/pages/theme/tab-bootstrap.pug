@@ -53,6 +53,8 @@ html(lang='en')
                         a#profile-tabs.nav-link(data-bs-toggle='tab', href='#profile', role='tab', aria-controls='profile', aria-selected='false') Profile
                       li.nav-item
                         a#contact-tab.nav-link(data-bs-toggle='tab', href='#contact', role='tab', aria-controls='contact', aria-selected='false') Contact
+                           li.nav-item
+                        a#contact-tab.nav-link(data-bs-toggle='tab', href='#Activated', role='tab', aria-controls='Activated', aria-selected='false') Activated
                     #myTabContent.tab-content
                       #home.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='home-tab')
                         p.mb-0.m-t-30
@@ -63,6 +65,8 @@ html(lang='en')
                       #contact.tab-pane.fade(role='tabpanel', aria-labelledby='contact-tab')
                         p.mb-0.m-t-30
                           | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                           #activated.tab-pane.fade(role='tabpanel', aria-labelledby='activated-tab')
+                        p.mb-0.m-t-30
               .col-sm-12.col-xxl-6
                 .card
                   .card-header
@@ -78,6 +82,9 @@ html(lang='en')
                       #bottom-contact.tab-pane.fade(role='tabpanel', aria-labelledby='contact-bottom-tab')
                         p.m-b-30
                           | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                           #bottom-contact.tab-pane.fade(role='tabpanel', aria-labelledby='activated-bottom-tab')
+                        p.m-b-30
+
                     ul#bottom-tab.nav.nav-tabs.nav-bottom(role='tablist')
                       li.nav-item
                         a#bottom-home-tab.nav-link.active(data-bs-toggle='tab', href='#bottom-home', role='tab', aria-controls='bottom-home', aria-selected='true')
@@ -91,6 +98,11 @@ html(lang='en')
                         a#contact-bottom-tab.nav-link(data-bs-toggle='tab', href='#bottom-contact', role='tab', aria-controls='contact-icon', aria-selected='false')
                           i.icofont.icofont-contacts
                           | Contact
+
+                         li.nav-item
+                        a#contact-bottom-tab.nav-link(data-bs-toggle='tab', href='#bottom-Activated', role='tab', aria-controls='Activated-icon', aria-selected='false')
+                          i.icofont.icofont-connection
+                          | Activated
               .col-sm-12.col-xxl-6
                 .card
                   .card-header
@@ -109,6 +121,10 @@ html(lang='en')
                         a#contact-icon-tab.nav-link(data-bs-toggle='tab', href='#contact-icon', role='tab', aria-controls='contact-icon', aria-selected='false')
                           i.icofont.icofont-contacts
                           | Contact
+                              li.nav-item
+                        a#Activated-icon-tab.nav-link(data-bs-toggle='tab', href='#contact-icon', role='tab', aria-controls='Activated-icon', aria-selected='false')
+                          i.icofont.icofont-contacts
+                          | Activated
                     #icon-tabContent.tab-content
                       #icon-home.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='icon-home-tab')
                         p.mb-0.m-t-30

@@ -381,12 +381,12 @@ var options3 = {
 var options = {
      series: [
       {
-        name:'Earning',
-        data:[300,400,500,600,700,800,900]
+        name:'Complete Task',
+        data:[500,400,500,600,700,1300,1500]
       },
       {
-        name: 'Expense',
-        data: [200,300,400,500,600]
+        name: 'Uncomplete Task',
+        data: [200,300,400,500,500]
       }
     ],
     chart:{

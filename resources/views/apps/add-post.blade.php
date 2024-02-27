@@ -55,14 +55,7 @@
 				  <input class="form-control" id="validationCustom01" type="text" placeholder="Post Title" required="">
 				  <div class="valid-feedback">Looks good!</div>
 				</div>
-				<div class="mb-3">
-				  <div class="col-form-label">Category:
-					<select class="js-example-placeholder-multiple col-sm-12" multiple="multiple">
-					  <option value="AL">Lifestyle</option>
-					  <option value="WY">Travel</option>
-					</select>
-				  </div>
-				</div>
+				
 				<div class="email-wrapper">
 				  <div class="theme-form">
 					<div class="mb-3">
